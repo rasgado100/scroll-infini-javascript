@@ -1,0 +1,14 @@
+.galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: 8px;
+  padding: 0 8px;
+}
+
+.galerie img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;      /* réserve la place avant le chargement : pas de saut de page */
+  object-fit: cover;
+  background: var(--soft);
+}
