@@ -1,0 +1,12 @@
+{
+  "name": "scroll-infini-seo-pagination",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scroll infini doublé de vraies pages paginées (?page=N), pour le SEO",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
