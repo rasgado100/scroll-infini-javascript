@@ -1,0 +1,18 @@
+.liste {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 16px;
+  list-style: none;
+}
+
+.carte {
+  margin-bottom: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.carte h3 { margin: 0 0 4px; font-size: 1rem; text-transform: capitalize; }
+.carte p { margin: 0; color: var(--muted); }
+.carte:focus { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.actions { text-align: center; }

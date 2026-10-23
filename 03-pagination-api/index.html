@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>03 · Scroll infini avec une API paginée</title>
+<link rel="stylesheet" href="../assets/base.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="retour"><a href="../index.html">← Retour au sommaire</a></p>
+<h1>Des articles à l'infini (API paginée)</h1>
+<p class="note">
+  Les données viennent de JSONPlaceholder (100 articles, 10 par page). Après la page 10,
+  la liste s'arrête vraiment. Pour tester l'erreur : coupe le réseau dans les DevTools.
+</p>
+
+<ul id="liste" class="liste"></ul>
+<div id="sentinelle" aria-hidden="true"></div>
+
+<p id="statut" class="note" role="status"></p>
+<p class="actions">
+  <button id="plus" class="bouton" type="button">Charger plus</button>
+  <button id="reessayer" class="bouton" type="button" hidden>Réessayer</button>
+</p>
+<script src="script.js"></script>
+</body>
+</html>
